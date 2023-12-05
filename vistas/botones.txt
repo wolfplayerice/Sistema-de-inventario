@@ -1,0 +1,8 @@
+                      <div class="btn-group">
+                        <button class="btn btn-primary btnEditar">
+                          <i class='fa-solid fa-pen-to-square'></i>
+                        </button>
+                        <button class="btn btn-danger btnBorrar">
+                          <i class="fa-solid fa-trash"></i>
+                        </button>
+                      </div>
