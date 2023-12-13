@@ -26,9 +26,10 @@
             </div>
   
             <ul class="sub-menu">
-              <li><a href="index.php" class="link-name">Ventas</a></li>
+              <li><a href="" class="link-name">Ventas</a></li>
+              <li><a href="">Registro de venta</a></li>
               <li><a href="">Ventas</a></li>
-              <li><a href="index.html">Clientes</a></li>
+              <li><a href="index.php">Clientes</a></li>
             </ul>
           </li>
   
@@ -44,24 +45,24 @@
             </ul>
           </li>
           <li>
-          <a href="#">
+          <a href="categoria.php">
             <i class="fa-solid fa-layer-group"></i>
             <span class="link-name">Categorias</span>
           </a>
   
           <ul class="sub-menu blank">
-            <li><a href="#" class="link-name">Categorias</a></li>
+            <li><a href="categoria.php" class="link-name">Categorias</a></li>
           </ul>
         </li>
   
           <li>
-            <a href="#">
+            <a href="permisos.php">
               <i class="fa-solid fa-user"></i>
               <span class="link-name">Permisos</span>
             </a>
   
             <ul class="sub-menu blank">
-              <li><a href="#" class="link-name">Permisos</a></li>
+              <li><a href="permisos.php" class="link-name">Permisos</a></li>
             </ul>
           </li>
   
@@ -76,7 +77,8 @@
                 <div class="name">Sesion</div>
                 <div class="job">Admin</div>
               </div>
-              <i class="fas fa-right-to-bracket"></i>
+              <a href="../bd/cerrarsesion.php"><i class="fas fa-right-to-bracket"></i></a>
+              
             </div>
           </li>
         </ul>
